@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+  }
+  
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/23/33/4a/23334a81db81bebb2eb6b6143a07c6de.jpg');
+    background-size: cover;
+}
+
+
+#start {
+    margin-right: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    background-color:darkslateblue;
+}
+
+#start:hover {
+    background-color:aqua;
+    color:black;
+}
+
+#player, #AI, #mesaj {
+    background-color: white;
+}
