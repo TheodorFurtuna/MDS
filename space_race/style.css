@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpaperaccess.com/full/1219598.jpg");
+  background-size: cover;
+}
+
+.Difficulty {
+  margin-right: 100px;
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: rgb(0, 51, 102);
+  margin-bottom: 20px;
+}
+
+.Difficulty:hover {
+  background-color: aqua;
+  color: black;
+}
+
+#butoane {
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  display: block;
+}
