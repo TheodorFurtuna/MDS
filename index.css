@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/91/84/mCPu15.jpg");
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+#logo {
+    width: 50%;
+}
+
+.butoane {
+    display: flex;
+    flex-direction: column;
+}
+
+.butoane a {
+    text-decoration: none;
+    margin-top: 15%;
+    padding: 20px 150px;
+    text-align: center;
+    background-color: violet;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Arial", sans-serif;
+    text-shadow: 2px 2px 8px black;
+}
+
+#bt1 {
+    background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/6/6b/Corki_ArcadeSkin.jpg/revision/latest/scale-to-width-down/1000?cb=20181021031541");
+}
+
+#bt2 {
+    background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Caitlyn_ArcadeSkin.jpg/revision/latest/scale-to-width-down/1000?cb=20211103193820");
+}
+
+#bt3 {
+    background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Hecarim_ArcadeSkin.jpg/revision/latest/scale-to-width-down/1000?cb=20181021044258");
+}
