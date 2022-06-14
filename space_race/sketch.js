@@ -44,13 +44,19 @@ function setup() {
 function draw() {
   background(0, 51, 102);
 
-  leftShip.update();
-  rightShip.update();
+  // leftShip.update();
+  // rightShip.update();
 
-  leftShip.display();
-  rightShip.display();
+  // leftShip.display();
+  // rightShip.display();
 
   if (pressed != 0) {
+    leftShip.update();
+    rightShip.update();
+
+    leftShip.display();
+    rightShip.display();
+
     for (let i = 0; i < NUM_DEBRIS; i++) {
       allDebris[i].set(pressed);
     }
